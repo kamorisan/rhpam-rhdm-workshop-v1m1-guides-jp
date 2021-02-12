@@ -11,7 +11,7 @@ modules:
     name: ユースケースの紹介
   components-overview:
 #    name: RHPAM Components and Architecture
-    name: RHPAM のコンポーネントとアーキテクチャ
+    name: RHPAM の機能とアーキテクチャ
   workshop-environment:
 #    name: Workshop Environment
     name: ワークショップの環境について
