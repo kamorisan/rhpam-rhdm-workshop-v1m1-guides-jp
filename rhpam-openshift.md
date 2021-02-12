@@ -27,10 +27,10 @@ yaml経由で設定をカスタマイズしたり、Operatorが提供するOpera
 
 例えば、ルールやプロセスをオーサリングする環境を作りたい場合は、そのために必要なコンポーネントをすべて含んだ `rhpam79-authoring` を使うことができます。下の画像を参照してください。
 
-	![RHPAM Authoring]({% image_path rhpam-authoring.png %}){:width="600px"}
+![RHPAM Authoring]({% image_path rhpam-authoring.png %}){:width="600px"}
 
 このワークショップでは、オーサリングテンプレートは、あなたのアセットをテストするためのプロセスサーバーを備えた完全なオーサリング環境を提供します。
 
 永続的なストレージを持たないシンプルなテスト環境を提供したい場合は、代わりにエフェメラルテンプレートを使ってインストールすることができます。
 
-	![RHPAM Ephemeral]({% image_path rhpam-ephemeral-template.png %}){:width="600px"}
+![RHPAM Ephemeral]({% image_path rhpam-ephemeral-template.png %}){:width="600px"}
