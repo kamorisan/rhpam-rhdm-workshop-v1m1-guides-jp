@@ -1,6 +1,8 @@
 # 1. Introduction
 
-Welcome to the first module of the Red Hat Process Automation Manager (RHPAM) workshop. During this module, you will have an overview of:
+<!-- Welcome to the first module of the Red Hat Process Automation Manager (RHPAM) workshop. During this module, you will have an overview of: -->
+Red Hat Process Automation Manager (RHPAM) ワークショップの最初のモジュールへようこそ。<br>
+このモジュールでは、以下の概要を説明します。
 
 - The business use case we will solve during the workshop with Red Hat Process Automation Manager;
 - Red Hat Process Automation Manager 7 architecture components;
