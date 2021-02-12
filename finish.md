@@ -1,27 +1,28 @@
-This scenario has explained the main components of RHPAM and provided you information on how the installation should be done over OpenShift. It also guided you on how to access and configure your environment to start authoring business assets.
+このシナリオでは、RHPAMの主なコンポーネントを説明し、OpenShift上でのインストール方法について情報を提供しました。
+また、ビジネスアセットの設計・実行を行うための環境にアクセスをする方法についても案内しました。
 
-In the next scenarios you will learn how to build those assets based on the use case described in this module.
+次のシナリオでは、このモジュールで説明したユースケースに基づいて、それらのアセットを構築する方法を学びます。
 
-### Environment information summarized
+### 環境情報についてのまとめ
 
-To access OpenShift via the Web Console:
+WebコンソールからOpenShiftにアクセスするには
 
-1. Open the [Red Hat Openshift Container Platform]({{ OPENSHIFT_CONSOLE_URL }}) in your browser.
-2. Login with username `userX`{{copy}} and password `openshift`{{copy}}
-3. You will see a list of the projects that you have access to. In this case, only the _rhpam-userX_ project.
-4. Finally, click on the project to open the project page.
+1. ブラウザで [Red Hat Openshift Container Platform]({{ OPENSHIFT_CONSOLE_URL }}){:target="_blank"} を開きます。 
+2. ユーザー名: `userX`{{copy}} パスワード: `openshift`{{copy}} でログインします。
+3. アクセス可能なプロジェクトの一覧が表示されます。ここでは _rhpam-userX_ プロジェクトのみです。
+4. 最後にプロジェクトをクリックして、プロジェクトページを開きます。
 
-To access Business Central: 
+Business Central へのアクセスするには
 
-1. Login to your [Openshift console]({{ OPENSHIFT_CONSOLE_URL }}){:target="_blank"} tab.
+1. [Openshift console]({{ OPENSHIFT_CONSOLE_URL }}){:target="_blank"} にログインします。
 
-2. Make sure you are on the `Developer` perspective. On the left menu, select the `Topology` option and check if you have the `rhpam-userX` project selected. .
+2. `Developer`視点であることを確認してください。左メニューで `Topology` オプションを選択し、`rhpam-userX` プロジェクトが選択されているかどうかを確認します。
 
-3. To Business Central, click on the link for `rhpam7-rhpamcentr` (4 Step on image below):
+3. `rhpam7-rhpamcentr` (上の画像のStep4)のリンクをクリックし、Business Central にアクセスします。
 
 	![PAM Project]({% image_path topology-details.png %}){:width="600px"}
 
-5. Login in Business Central with the following credentials:
+4. 次の認証情報で、Business Central にログインします。
 
  - user: `pamAdmin`{{copy}}
  - password: `redhatpam1!`{{copy}}

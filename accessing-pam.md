@@ -1,10 +1,6 @@
 # 5. Business Central へのアクセス
 
-So far you received access to the OpenShift where your PAM environment is available. Now we will access PAM workbench known as Business Central.
-
-Business Central has authoring, management and monitoring capabilities both for developers as well as subject domain experts.
-
-ここまでで、PAM環境が利用できるOpenShiftへのアクセスの方法を確認しました。
+ここまでで、PAM環境が利用できるOpenShiftへのアクセスの方法を確認しました。<br>
 続いて、Business Centralとして知られる、PAMワークベンチにアクセスをします。
 
 Business Central は、開発者だけでなく、業務エキスパートのための設計、管理、監視機能を備えています。
@@ -38,10 +34,6 @@ _すでにOpenShiftにログインしている場合は、Step2にジャンプ�
  - password: `redhatpam1!`{{copy}}
 
 ![Business Central Console]({% image_path business-central-console.png %}){:width="600px"}
-
-If you can see the page above, this means you could access the working environment where users can author and test their Business Applications.
-
-Let's head over to have an overview about how Red Hat PAM works on cloud CaaS environments like OpenShift.
 
 以上で、ユーザーがビジネスアプリケーションの設計やテストを行うための作業環境にアクセスできることを確認してきました。
 
