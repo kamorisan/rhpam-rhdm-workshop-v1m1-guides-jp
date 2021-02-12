@@ -7,10 +7,12 @@ Red Hat Process Automation Manager (別名: RHPAM) は、意思決定の自動�
 <!-- The following diagram depicts the main capabilities of Red Hat Process Automation Platform (RHPAM). -->
 次の図は、Red Hat Process Automation Manager (RHPAM) の主な機能を示しています。
 
-<!--![High Level Capability Component]({% image_path high-level-capability-components.png %}){:width="600px"} -->
+![High Level Capability Component]({% image_path high-level-capability-components.png %}){:width="600px"}
+<!--
 <div align="center">
     <img src=./images/high-level-capability-components.png width="600px">
 </div>
+-->
 
 ## 機能の概要
 
@@ -57,10 +59,12 @@ RHPAMには、オープンソースの[jBPM](http://www.jbpm.org)プロジェク
 Red Hat PAM には強力なBusiness Activity Monitoring (BAM)機能が搭載されており、ユーザーは異なるデータソース（CSV、SQL、Kie Server...）に基づいてレポートを作成し、
 カスタマイズされたページやコンポーネントを使用してレポートを表示することができます。
 
-<!-- ![High Level Capability Component]({% image_path high-level-capability-components-dashboard.png %}){:width="600px"} -->
+![High Level Capability Component]({% image_path high-level-capability-components-dashboard.png %}){:width="600px"}
+<!--
 <div align="center">
     <img src=./images/high-level-capability-components-dashboard.png width="600px">
 </div>
+-->
 
 ---
 
@@ -80,10 +84,12 @@ Red Hat PAM main components and capabilities are displayed in this diagram:
 
 Red Hat PAMの主なコンポーネントと機能は、この図のように表示されています。
 
-<!-- ![RHPAM 7 Components]({% image_path rhpam-components.png %}){:width="600px"} -->
+![RHPAM 7 Components]({% image_path rhpam-components.png %}){:width="600px"}
+<!--
 <div align="center">
     <img src=./images/rhpam-components.png width="600px">
 </div>
+-->
 
 ### Business Central Monitoring
 <!-- A modern web-based workbench that provides user the tooling to manage and monitor deployed projects, running engines, running instances of process-driven applications and more. -->
@@ -124,17 +130,20 @@ KIE-Serversは、OpenShift Container Platformのクラウドネイティブ機�
 <!-- Provides a runtime abstraction layer over the KIE-Server topology, allowing clients of this topology to interact with a single endpoint. Smart Router contains the information of which processes and rules (deployment units) are deployed on which runtime engine/KIE-Server, and provides routing functionality to the correct server instance based on the client request. In a classical enterprise environment where you have multiple instances running and different nodes, starting and shutting down in an elastic way, the complexity of tracking these changes in order to correctly load-balance the requests is the responsibility of the Smart Router. -->
 
 KIE-Serverトポロジ上にランタイム抽象化レイヤを提供し、このトポロジのクライアントが単一のエンドポイントと対話をできるようにします。
-Smart Routerには、どのプロセスとルール（デプロイメント・ユニット）がどのランタイム・エンジン/KIE-Serverにデプロイされているかの情報が含まれており、クライアントの要求に基づいて正しいサーバー・インスタンスへのルーティング機能を提供します。
+Smart Routerには、どのプロセスとルール（デプロイメント・ユニット）がどのランタイム・エンジン/KIE-Serverにデプロイされているかの情報が含まれており、
+クライアントの要求に基づいて正しいサーバー・インスタンスへのルーティング機能を提供します。
 
 ## PAM のアーキテクチャ
 <!-- RHPAM can be architected in some different ways, this is a represention of one of the possible architectures: -->
 RHPAMはいくつかの異なる方法で設計することができますが、
 中でも代表的なアーキテクチャの一つを以下に示しています。
 
-<!-- ![RHPAM 7 Architecture]({% image_path rhpam-7-architecture.png %}){:width="600px"} -->
+![RHPAM 7 Architecture]({% image_path rhpam-7-architecture.png %}){:width="600px"}
+<!--
 <div align="center">
     <img src=./images/rhpam-7-architecture.png width="600px">
 </div>
+-->
 
 ----
 
