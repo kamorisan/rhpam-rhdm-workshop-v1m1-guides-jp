@@ -19,7 +19,7 @@ OpenShift環境はすでにプロビジョニングされています。
 
 WebコンソールからOpenShiftにアクセスするには
 
-1. ブラウザで [Red Hat Openshift Container Platform]({{ OPENSHIFT_CONSOLE_URL }}) を開きます。
+1. ブラウザで [Red Hat Openshift Container Platform]({{ OPENSHIFT_CONSOLE_URL }}){:target="_blank"} を開きます。
 2. ユーザー名: `userX`{{copy}} パスワード: `openshift`{{copy}} でログインします。
 3. アクセス可能なプロジェクトの一覧が表示されます。ここでは _rhpam-userX_ プロジェクトのみです。
 4. 最後にプロジェクトをクリックして、プロジェクトページを開きます。
@@ -47,13 +47,11 @@ oc login --token=rVO1oDOjspF6CLTW53zddinWRrpxAfDsywzptM0jsiY --server=https://ap
 
 ## OpenShift Platform 上での Red Hat Process Automation Manager
 
-Once you are in the platform, on the left menu you can find the `Home` section, and under it, you shoud click on `Projects`. Select the project `rhpam-userX`, and click on the `Workloads` tab. You can see there are three `Deployment Configs`:
-
 OpenShiftにログインしたら、左側のメニューにある `Home` セクションの下にある `Projects` をクリックしてください。
 プロジェクト `rhpam-userX` を選択し、`Workloads` タブをクリックします。
 3つの `Deployment Configs` があります。
 
-  - `react-web-app`: REST経由で通信し、PAMエンジン（Kie Server）からビジネスアセットを実行するReactアプリケーション。
+  - `react-web-app`: REST経由で通信し、PAMエンジン（Kie Server）からビジネスアセットを実行する、Reactアプリケーション。
 
   - `rhpam7-kieserver` と `rhpam7-rhpamcentr`: ビジネスアセットの設計、実行、監視ができる環境。
 

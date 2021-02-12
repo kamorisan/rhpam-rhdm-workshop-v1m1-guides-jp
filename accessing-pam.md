@@ -1,34 +1,38 @@
-# 5. Accessing Business Central
+# 5. Business Central へのアクセス
 
 So far you received access to the OpenShift where your PAM environment is available. Now we will access PAM workbench known as Business Central.
 
 Business Central has authoring, management and monitoring capabilities both for developers as well as subject domain experts.
 
+ここまでで、PAM環境が利用できるOpenShiftへのアクセスの方法を確認しました。
+続いて、Business Centralとして知られる、PAMワークベンチにアクセスをします。
+
+Business Central は、開発者だけでなく、業務エキスパートのための設計、管理、監視機能を備えています。
+
 ![Collaboration Tools]({% image_path collaboration_tools.png %}){:width="600px"}
 
-Let's start by accessing your business central.
+Business Central にアクセスしてみましょう。
 
-## Accessing Business Central
+## Business Central へのアクセス
 
-_Jump to step 2 if you're already logged into OpenShift._
+_すでにOpenShiftにログインしている場合は、Step2にジャンプします。_
 
-1. [Go to your Openshift console]({{ OPENSHIFT_CONSOLE_URL }}){:target="_blank"} tab.  If you're not yet logged in, or have been logged out, login using the same credentials as before:
+1. ブラウザで [Red Hat Openshift Container Platform]({{ OPENSHIFT_CONSOLE_URL }}){:target="_blank"} を開きます。 まだログインしていない場合、またはログアウトされている場合は、以前と同じ認証情報でログインしてください。
 
 	- user: `userX`{{copy}}
 	- password: `openshift`{{copy}}
 
 	![OpenShift Console]({% image_path openshift-console.png %}){:width="600px"}
 
-2. Make sure you are on the `Developer` perspective. On the left menu, select the `Topology` option and check if you have the `rhpam-userX` project selected. .
+2. `Developer`視点であることを確認してください。左メニューで `Topology` オプションを選択し、`rhpam-userX` プロジェクトが選択されているかどうかを確認します。
 
-3. You will see listed the 3 components: `rhpam7-rhpamcentr`, the `rhpam7-kieserver` and `react-web-app`.
-At this point we are interested on the authoring environment. From this page, you can already find a link to open Business Central:
+3. `rhpam7-rhpamcentr`, `rhpam7-kieserver`, `react-web-app` の3つのコンポーネントが表示されています。
 
 ![PAM Project]({% image_path topology-details.png %}){:width="600px"}
 
-4. Click on the link for `rhpam7-rhpamcentr` (4 Step on image above). That link is the external OpenShift route that allows us to access Business Central. A new tab should open with Business Central login page.
+4. `rhpam7-rhpamcentr` (上の画像のStep4)のリンクをクリックします。このリンクは、Business Centralにアクセスするための外部OpenShiftルートです。新しいタブが開き、Business Centralのログインページが表示されるはずです。
 
-5. You can login in Business Central with the following credentials:
+5. Business Centralでは、次の認証情報でログインできます。
 
  - user: `pamAdmin`{{copy}}
  - password: `redhatpam1!`{{copy}}
@@ -38,3 +42,7 @@ At this point we are interested on the authoring environment. From this page, yo
 If you can see the page above, this means you could access the working environment where users can author and test their Business Applications.
 
 Let's head over to have an overview about how Red Hat PAM works on cloud CaaS environments like OpenShift.
+
+以上で、ユーザーがビジネスアプリケーションの設計やテストを行うための作業環境にアクセスできることを確認してきました。
+
+次のセクションでは、OpenShift などのクラウド CaaS 環境で Red Hat PAM がどのように動作するのか、概要を説明していきます。
