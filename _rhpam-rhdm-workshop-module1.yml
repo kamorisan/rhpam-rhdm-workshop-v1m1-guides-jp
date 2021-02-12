@@ -37,3 +37,4 @@ modules:
   #- authentication-authorization
   - rhpam-openshift
   - finish
+  - omake

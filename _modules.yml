@@ -22,4 +22,6 @@ modules:
   rhpam-openshift:
     name: Red Hat PAM on OpenShift Container Platform
   finish:
-    name: Conclusion  
+    name: Conclusion
+  omake:
+    name: おまけ  
