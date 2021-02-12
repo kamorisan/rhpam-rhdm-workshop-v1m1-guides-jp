@@ -17,34 +17,33 @@ OpenShift環境はすでにプロビジョニングされています。
 
 ### Webコンソールを使用
 
-Web ConsoleからOpenShiftにアクセスするには
+WebコンソールからOpenShiftにアクセスするには
 
-1. ブラウザで [Red Hat Openshift Container Platform]({{ OPENSHIFT_CONSOLE_URL }}) を開きます
-2. ユーザー名: `userX`{{copy}} パスワード: `openshift`{{copy}} でログインします
+1. ブラウザで [Red Hat Openshift Container Platform]({{ OPENSHIFT_CONSOLE_URL }}) を開きます。
+2. ユーザー名: `userX`{{copy}} パスワード: `openshift`{{copy}} でログインします。
 3. アクセス可能なプロジェクトの一覧が表示されます。ここでは _rhpam-userX_ プロジェクトのみです。
 4. 最後にプロジェクトをクリックして、プロジェクトページを開きます。
 
 ### コマンドラインを使用
 
-In order to login via CLI, you will need in your local environment the OpenShift CLI tool. If you don't have it, you can select and download the [OpenShift CLI tool](https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.2.25/openshift-client-linux-4.2.25.tar.gz) according to your environment.
+コマンドラインインターフェース(CLI)経由でログインするためには、ローカル環境にOpenShift CLIツールが必要です。
+持っていない場合は、環境に合わせて[OpenShift CLI tool](https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.2.25/openshift-client-linux-4.2.25.tar.gz)を選択してダウンロードすることができます。
 
-Alternatively, you can use a browser based OpenShift terminal. Your instructors will show this option if need it.
+あるいは、ブラウザベースのOpenShift端末を使用することもできます。必要に応じてインストラクターがこのオプションを教えてくれます。
 
-The easiest way to login to the OpenShift system via the command line interface, is to access it via Web Console, log in and click on `Copy Login Command`.
+CLIを使ってOpenShiftにログインする最も簡単な方法は、Webコンソールからアクセスしてログインし、`Copy Login Command`をクリックすることです。
 
 ![OCP Copy Login Command]({% image_path ocp-copy-login-command.png %}){:width="600px"}
 
-1. Login to [Openshift Console]({{ OPENSHIFT_CONSOLE_URL }}){:target="_blank"}
-2. Click on `Copy Login Command`
-3. OpenShift will request your credentials again. Inform them.
-4. Click on `Display Token`
-5. Look for the `Login with this token` session, and copy the command which is similar to:
+1. [Openshift Console]({{ OPENSHIFT_CONSOLE_URL }}){:target="_blank"} にログインします。
+2. `Copy Login Command` をクリックします。
+3. OpenShiftが再度資格情報を要求してきます。ユーザー名とパスワードを入力してください。
+4. `Display Token` をクリックします。
+5. `Login with this token` に表示されている、以下のようなコマンドをコピーします。
 
 ```
 oc login --token=rVO1oDOjspF6CLTW53zddinWRrpxAfDsywzptM0jsiY --server=https://api.cluster-rio-ead1.rio-ead1.example.opentlc.com:6443
 ```
-
-We have already provisioned an environment for you, and a project called **_rhpam-userX_**.
 
 ## Red Hat Process Automation Manager on OpenShift Platform
 
