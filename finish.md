@@ -18,7 +18,7 @@ Business Central へのアクセスするには
 
 2. `Developer`視点であることを確認してください。左メニューで `Topology` オプションを選択し、`rhpam-userX` プロジェクトが選択されているかどうかを確認します。
 
-3. `rhpam7-rhpamcentr` (上の画像のStep4)のリンクをクリックし、Business Central にアクセスします。
+3. `rhpam7-rhpamcentr` (下の画像のStep4)のリンクをクリックし、Business Central にアクセスします。
 
 	![PAM Project]({% image_path topology-details.png %}){:width="600px"}
 

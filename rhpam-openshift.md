@@ -1,4 +1,4 @@
-# 6. Overview: RHPAM Installation on OpenShift
+# 6. 参考情報: OpenShift への RHPAM のインストールについて
 
 RHPAM installation on OpenShift can be made using an Operator or using pre-defined templates. This allows easy deployment of environments that aims specific goals.
 
@@ -18,18 +18,6 @@ Like mentioned, you have available some pre-defined templates to deploy PAM. Her
 - **rhpam-authoring**: The environment of choice if you are a business user or developer that wants to author business automation projects, assets and applications. Provides an authoring environment including Business Central and an execution server (Kie Server).
 - **rhpam-authoring-ha**: Same as the previous environment, but with high availability features. This implies that there are multiple (by default 2) instances of Business Central and execution server deployed.
 - **rhpam-production**: An environment for running existing services for staging and production purposes. If you are the administrator of the platform and you want a production like environment. The template provisions a monitoring and management environment, a smart router and 2 execution server groups.
-
-<!-- What kind of environment is right for you, depends on your requirements:
-
-- In which deployment environment is the platform going to be provisioned?
-  - Is the environment planned for process and/or rules development?
-  - Is the environment planned for integration testing?
-  - Is the environment planned to be a production environment?
-- What kind of deployment architecture and methodology do you prefer?
-  - Do you want to be able to install and update process definitions and rules via the management console?
-  - Do you use the concept of immutable containers, and thus don't allow the provisioning of applications through the management console?
-- Do you have a requirement for high availability of the platform?
-- What kind of database do you want to integrate with? -->
 
 For example, if you want an environment to author rules and processes, you can use the `rhpam79-authoring` that contains all the components necessary to do so. See the image below.
 
