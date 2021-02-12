@@ -1,30 +1,36 @@
 # 6. 参考情報: OpenShift への RHPAM のインストールについて
 
-RHPAM installation on OpenShift can be made using an Operator or using pre-defined templates. This allows easy deployment of environments that aims specific goals.
+OpenShift上でのRHPAMのインストールは、Operatorを使用するか、あらかじめ定義されたテンプレートを使用して行うことができます。
+これにより、特定の目標を目指した環境を簡単にデプロイすることができます。
 
-_An Operator is a method of packaging, deploying and managing a Kubernetes application. A Kubernetes application is an application that is both deployed on Kubernetes and managed using the Kubernetes APIs and kubectl tooling._
+> **NOTE**
+> 
+> _Operatorとは、Kubernetesアプリケーションをパッケージ化し、デプロイし、管理する方法のことです。<br>
+> Kubernetesアプリケーションとは、Kubernetes上にデプロイされ、Kubernetes APIとkubectlツールを使用して管理されるアプリケーションのことです。_
 
-So, depending on whether you want to develop, integrate, test or run processes and other assets, you can choose the installation configurations that will create an environment that reflects the needs of your choice. Once the architecture is defined, the user can opt to do the installation via template or using the RHPAM Operator available on the OperatorHub.
+そのため、プロセスなどの資産を開発するか、統合するか、テストするか、実行するかによって、選択したニーズを反映した環境を構築するインストール構成を選択することができます。
+アーキテクチャが定義されると、ユーザーはテンプレートを介してインストールを行うか、OperatorHubで利用可能なRHPAM Operatorを使用してインストールを行うかを選択することができます。
 
 ![RHPAM Operator]({% image_path rhpam-operator.png %}){:width="600px"}
 
-When deploying PAM via Operator, the user will deploy a KieApp. It is possible to customize the configurations via yaml, or, use the Operation Installer UI provided by the operator:
+Operator経由でPAMをデプロイする場合、ユーザはKieAppをデプロイします。
+yaml経由で設定をカスタマイズしたり、Operatorが提供するOperation Installer UIを利用したりすることが可能です。
 
 ![RHPAM Operator Installer UI]({% image_path rhpam-operator-installer-ui.png %}){:width="600px"}
 
-Like mentioned, you have available some pre-defined templates to deploy PAM. Here are a summary some of the options:
+前述のように、PAMをデプロイするためのいくつかの定義されたテンプレートが利用可能です。ここでは、いくつかのオプションの概要を説明します。
 
-- **rhpam-trial**: A trial environment that you can set up quickly and use to evaluate or demonstrate developing and running assets. Includes Business Central and a Process Server. This environment does not use any persistent storage, and any work you do in the environment is not saved.
-- **rhpam-authoring**: The environment of choice if you are a business user or developer that wants to author business automation projects, assets and applications. Provides an authoring environment including Business Central and an execution server (Kie Server).
-- **rhpam-authoring-ha**: Same as the previous environment, but with high availability features. This implies that there are multiple (by default 2) instances of Business Central and execution server deployed.
-- **rhpam-production**: An environment for running existing services for staging and production purposes. If you are the administrator of the platform and you want a production like environment. The template provisions a monitoring and management environment, a smart router and 2 execution server groups.
+- **rhpam-trial**: すぐに設定でき、資産の開発・運用の評価やデモに使えるトライアル環境。Business CentralとProcess Serverが含まれています。この環境は永続的なストレージを使用せず、環境内で行った作業は保存されません。
+- **rhpam-authoring**: 業務ユーザーや開発者が、ビジネスオートメーションのプロジェクトやアセット、アプリケーションを開発したいと考えている場合に最適な環境です。Business Centralと実行サーバー（Kie Server）を含むオーサリング環境を提供します。
+- **rhpam-authoring-ha**: 前の環境と同じですが、高可用性機能を備えています。これは、Business Centralと実行サーバーのインスタンスが複数（デフォルトでは2つ）デプロイされていることを意味します。
+- **rhpam-production**: 既存のサービスをステージングや本番用に動かすための環境。このテンプレートでは、監視・管理環境、Smart Router、2つの実行サーバグループが用意されています。
 
-For example, if you want an environment to author rules and processes, you can use the `rhpam79-authoring` that contains all the components necessary to do so. See the image below.
+例えば、ルールやプロセスをオーサリングする環境を作りたい場合は、そのために必要なコンポーネントをすべて含んだ `rhpam79-authoring` を使うことができます。下の画像を参照してください。
 
 	![RHPAM Authoring]({% image_path rhpam-authoring.png %}){:width="600px"}
 
-For this workshop, the authoring template is enough to provide a complete authoring environment with a process server for you to test your assets. 
+このワークショップでは、オーサリングテンプレートは、あなたのアセットをテストするためのプロセスサーバーを備えた完全なオーサリング環境を提供します。
 
-If want to provision a simple test environment without a persistent storage, the installation can be made with the ephemeral template instead.
+永続的なストレージを持たないシンプルなテスト環境を提供したい場合は、代わりにエフェメラルテンプレートを使ってインストールすることができます。
 
 	![RHPAM Ephemeral]({% image_path rhpam-ephemeral-template.png %}){:width="600px"}
