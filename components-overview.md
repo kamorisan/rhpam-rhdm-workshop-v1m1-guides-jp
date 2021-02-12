@@ -8,11 +8,7 @@ Red Hat Process Automation Manager (別名: RHPAM) は、意思決定の自動�
 次の図は、Red Hat Process Automation Manager (RHPAM) の主な機能を示しています。
 
 ![High Level Capability Component]({% image_path high-level-capability-components.png %}){:width="600px"}
-<!--
-<div align="center">
-    <img src=./images/high-level-capability-components.png width="600px">
-</div>
--->
+<!-- <div align="center"> <img src=./images/high-level-capability-components.png width="600px"> </div> -->
 
 ## 機能の概要
 
@@ -60,11 +56,6 @@ Red Hat PAM には強力なBusiness Activity Monitoring (BAM)機能が搭載さ�
 カスタマイズされたページやコンポーネントを使用してレポートを表示することができます。
 
 ![High Level Capability Component]({% image_path high-level-capability-components-dashboard.png %}){:width="600px"}
-<!--
-<div align="center">
-    <img src=./images/high-level-capability-components-dashboard.png width="600px">
-</div>
--->
 
 ---
 
@@ -85,11 +76,6 @@ Red Hat PAM main components and capabilities are displayed in this diagram:
 Red Hat PAMの主なコンポーネントと機能は、この図のように表示されています。
 
 ![RHPAM 7 Components]({% image_path rhpam-components.png %}){:width="600px"}
-<!--
-<div align="center">
-    <img src=./images/rhpam-components.png width="600px">
-</div>
--->
 
 ### Business Central Monitoring
 <!-- A modern web-based workbench that provides user the tooling to manage and monitor deployed projects, running engines, running instances of process-driven applications and more. -->
@@ -139,11 +125,6 @@ RHPAMはいくつかの異なる方法で設計することができますが、
 中でも代表的なアーキテクチャの一つを以下に示しています。
 
 ![RHPAM 7 Architecture]({% image_path rhpam-7-architecture.png %}){:width="600px"}
-<!--
-<div align="center">
-    <img src=./images/rhpam-7-architecture.png width="600px">
-</div>
--->
 
 ----
 
