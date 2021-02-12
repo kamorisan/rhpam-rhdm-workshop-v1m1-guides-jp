@@ -1,4 +1,4 @@
-# 1. Introduction
+# 1. イントロダクション
 
 <!-- Welcome to the first module of the Red Hat Process Automation Manager (RHPAM) workshop. During this module, you will have an overview of: -->
 Red Hat Process Automation Manager (RHPAM) ワークショップの最初のモジュールへようこそ。<br>
@@ -12,7 +12,7 @@ Red Hat Process Automation Manager (RHPAM) ワークショップの最初のモ�
 -->
 - Red Hat Process Automation Manage で解決する、本ワークショップのビジネスユースケースについて
 - Red Hat Process Automation Manager 7 のアーキテクチャ
-- OpenShift Container Platform 4（OCP）上での、Red Hat Process Automation Manager 7
+- OpenShift Container Platform 4（OCP）上での、Red Hat Process Automation Manager 7について
 - ユーザーとセキュリティの設定
 
 <!-- We will inform the access details for each environment later on as we get to the hands-on exercises. Let's start by first understanding the use case we will solve. -->

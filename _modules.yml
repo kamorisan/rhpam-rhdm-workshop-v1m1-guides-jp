@@ -1,25 +1,26 @@
 config:
     renderer: markdown
 
+
 modules:
   intro:
-    name: Introduction
+#    name: Introduction
+    name: イントロダクション
   use-case-overview:
-    name: Use Case Introduction
+#    name: Use Case Introduction
+    name: ユースケースの紹介
   components-overview:
-    name: RHPAM Components and Architecture
+#    name: RHPAM Components and Architecture
+    name: RHPAM のコンポーネントとアーキテクチャ
   workshop-environment:
-    name: Workshop Environment
-  # Removed temporarily until operator module is complete
-  # cloud-installation-continued:
-  #   name: Cloud installation continued
-  # verifying-installation:
-  #   name: Verifying the installation
+#    name: Workshop Environment
+    name: ワークショップの環境について
   accessing-pam:
-    name: Accessing Red Hat PAM
-  # authentication-authorization:
-  #  name: Business Central Security
+#    name: Accessing Red Hat PAM
+    name: RHPAM へのアクセス
   rhpam-openshift:
-    name: Red Hat PAM on OpenShift Container Platform
+#    name: Red Hat PAM on OpenShift Container Platform
+    name: OpenShift Container Platform 上での RHPAM
   finish:
-    name: Conclusion
+#    name: Conclusion
+    name: 終わりに
