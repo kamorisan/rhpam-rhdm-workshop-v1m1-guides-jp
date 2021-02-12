@@ -23,5 +23,3 @@ modules:
     name: Red Hat PAM on OpenShift Container Platform
   finish:
     name: Conclusion
-  omake:
-    name: おまけ  
