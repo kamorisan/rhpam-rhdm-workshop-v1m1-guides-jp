@@ -1,7 +1,5 @@
 # 4. ワークショップの環境へのアクセス
 
-<!-- The cloud native OpenShift environment has already been provisioned for you. You can access it either via a terminal command line (for example if you're an IT professional) or via a web-based console. In this Workshop you will have your own OpenShift namespace to work. -->
-
 OpenShift環境はすでにプロビジョニングされています。
 ターミナルのコマンドラインからアクセスするか、ウェブベースのコンソールからアクセスすることができます。
 このワークショップでは、あなた専用に作成したOpenShiftプロジェクトを使用して作業を行います。
@@ -10,23 +8,23 @@ OpenShift環境はすでにプロビジョニングされています。
 
 1. [Red Hat Openshift Container Platform]({{ OPENSHIFT_CONSOLE_URL }}){:target="_blank"} へアクセスして下さい。
 2. インストラクターから、あなたに割り当てられたユーザー番号を確認しておいてください。
-    - OpenShift Console username: userX (例: user1)
-    - OpenShift Console password: openshift
+    - OpenShift Console username: `userX` (例: user1)
+    - OpenShift Console password: `openshift`
 
-## Login on OpenShift
+## OpenShift へログイン
 
-In this workshop, you can choose between two possible ways to interact with OpenShift: Web Console or Command Line.
+このワークショップでは、OpenShiftへアクセスを2つの方法から選択することができます。Webコンソールまたはコマンドラインです。
 
-### Via Web Console
+### Webコンソールを使用
 
-To access OpenShift via the Web Console:
+Web ConsoleからOpenShiftにアクセスするには
 
-1. Open the [Red Hat Openshift Container Platform]({{ OPENSHIFT_CONSOLE_URL }}) in your browser.
-2. Login with username `userX`{{copy}} and password `openshift`{{copy}}
-3. You will see a list of the projects that you have access to. In this case, only the _rhpam-userX_ project.
-4. Finally, click on the project to open the project page.
+1. ブラウザで [Red Hat Openshift Container Platform]({{ OPENSHIFT_CONSOLE_URL }}) を開きます
+2. ユーザー名: `userX`{{copy}} パスワード: `openshift`{{copy}} でログインします
+3. アクセス可能なプロジェクトの一覧が表示されます。ここでは _rhpam-userX_ プロジェクトのみです。
+4. 最後にプロジェクトをクリックして、プロジェクトページを開きます。
 
-### Via Command Line
+### コマンドラインを使用
 
 In order to login via CLI, you will need in your local environment the OpenShift CLI tool. If you don't have it, you can select and download the [OpenShift CLI tool](https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.2.25/openshift-client-linux-4.2.25.tar.gz) according to your environment.
 
