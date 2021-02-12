@@ -26,7 +26,7 @@ RHPAM には、Red Hat Decision Manager が含まれているため、オープ�
 - 意思決定表、ガイド付きルール、drools、DMN(Decision Model and Notation)標準を使用したルールの自動化
 - PMMLモデルをビジネス資産として利用し、意思決定やビジネスフローの中でAI/MLモデルを利用できるようにする
 - ルールを検証するためのテストシナリオの使用法
-- Complex Event Processing（CEP）という、時間ベースのイベントの上で行われる意思決定（不正検知など）
+- Complex Event Processing（CEP）を用いた、時間ベースのイベントの上で行われる意思決定（不正検知など）
 
 ### Business Optimizer
 <!-- An AI Constraint Satisfaction Solver that optimizes business resource planning use cases such as vehicle routing, employee rostering and conference scheduling. The platform optimizes the goal of a problem based on limited resources under specific constraints. The engine is based on the upstream [OptaPlanner](http://www.optaplanner.org) project. -->

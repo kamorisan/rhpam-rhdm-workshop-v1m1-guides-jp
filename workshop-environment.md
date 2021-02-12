@@ -1,12 +1,16 @@
-# 4. Accessing your work environment
+# 4. ワークショップの環境へのアクセス
 
-The cloud native OpenShift environment has already been provisioned for you. You can access it either via a terminal command line (for example if you're an IT professional) or via a web-based console. In this Workshop you will have your own OpenShift namespace to work.
+<!-- The cloud native OpenShift environment has already been provisioned for you. You can access it either via a terminal command line (for example if you're an IT professional) or via a web-based console. In this Workshop you will have your own OpenShift namespace to work. -->
 
-## Environment Details
+OpenShift環境はすでにプロビジョニングされています。
+ターミナルのコマンドラインからアクセスするか、ウェブベースのコンソールからアクセスすることができます。
+このワークショップでは、あなた専用に作成したOpenShiftプロジェクトを使用して作業を行います。
 
-1. This is the link to access [Red Hat Openshift Container Platform]({{ OPENSHIFT_CONSOLE_URL }}){:target="_blank"}
-2. The instructor should also assign to you a unique user number, which you will use from now on to access your OCP environment.
-    - OpenShift Console username: userX (i.e. user1)
+## 環境の詳細
+
+1. [Red Hat Openshift Container Platform]({{ OPENSHIFT_CONSOLE_URL }}){:target="_blank"} へアクセスして下さい。
+2. インストラクターから、あなたに割り当てられたユーザー番号を確認しておいてください。
+    - OpenShift Console username: userX (例: user1)
     - OpenShift Console password: openshift
 
 ## Login on OpenShift
