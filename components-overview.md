@@ -12,7 +12,7 @@ Red Hat Process Automation Manager (別名: RHPAM) は、意思決定の自動�
 
 RHPAM には、Red Hat Decision Manager が含まれているため、オープンソースの [Drools](http://www.drools.org) コミュニティプロジェクトをベースにした、高性能で軽量かつスケーラブルなルール実行エンジンが含まれています。
 
-- 意思決定表、ガイド付きルール、drools、DMN(Decision Model and Notation)標準を使用したルールの自動化
+- デシジョンテーブル、ガイド付きルール、drools、DMN(Decision Model and Notation)標準を使用したルールの自動化
 - PMMLモデルをビジネス資産として利用し、意思決定やビジネスフローの中でAI/MLモデルを利用できるようにする
 - ルールを検証するためのテストシナリオの使用法
 - Complex Event Processing（CEP）を用いた、時間ベースのイベントの上で行われる意思決定（不正検知など）
