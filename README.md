@@ -1,16 +1,17 @@
 Red Hat Process Automation Manager / Decision Manager Workshop Module 1
 ===
-This is `module 1` of a full-day hands-on Red Hat Process Automation Manager and Red Hat Decision Manager workshop. It provides developers and/or business analysts an introduction to Rules- and Process Driven applications and microservices in the context of modern, cloud-native, architectures.
+Red Hat Process Automation Manager と Red Hat Decision Manager の ハンズオンワークショップの `モジュール 1` です。
+このワークショップでは、開発者や業務エキスパートに、最新のクラウドネイティブアーキテクチャのコンテキストでのルールおよびプロセス駆動型アプリケーションとマイクロサービスの紹介を行います。
 
 Agenda
 ===
-* Introduction
-* Use Case Overview
-* Overview of RHPAM Components and Architecture
-* Accessing the workshop environment
-* Red Hat PAM users and groups
-* Red Hat PAM on OpenShift
-* Conclusion
+* イントロダクション
+* ユースケースの紹介
+* RHPAM の機能とアーキテクチャ
+* ワークショップの環境について
+* RHPAM へのアクセス
+* OpenShift Container Platform 上での RHPAM
+* おわりに
 
 Run locally
 === 

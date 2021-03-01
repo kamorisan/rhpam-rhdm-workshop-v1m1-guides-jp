@@ -23,4 +23,4 @@ modules:
     name: OpenShift Container Platform 上での RHPAM
   finish:
 #    name: Conclusion
-    name: 終わりに
+    name: おわりに
