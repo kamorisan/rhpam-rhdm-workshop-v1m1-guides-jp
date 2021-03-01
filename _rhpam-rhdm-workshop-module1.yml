@@ -1,9 +1,9 @@
 ---
 id: "rhpam_rhdm"
-name: "Business Automation Workshop 2020 - Module 1"
+name: "Business Automation Workshop 2021 - Module 1"
 
 content:
-  url: https://raw.githubusercontent.com/RedHat-Middleware-Workshops/rhpam-rhdm-workshop-v1m1-guides.git/master
+  url: https://raw.githubusercontent.com/kamorisan/rhpam-rhdm-workshop-v1m1-guides-jp.git/main
 
 vars:
   OPENSHIFT_DOCS_BASE: "https://docs.openshift.com/container-platform/4.5/welcome/index.html"
