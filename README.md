@@ -17,17 +17,17 @@ Run locally
 === 
 
 ```
-$ git clone https://github.com/RedHat-Middleware-Workshops/rhpam-rhdm-workshop-v1m1-guides.git
-$ cd rhpam-rhdm-workshop-v1m1-guides
+$ git clone https://github.com/kamorisan/rhpam-rhdm-workshop-v1m1-guides-jp.git
+$ cd rhpam-rhdm-workshop-v1m1-guides-jp
 $ docker run -it --rm -p 8080:8080 -v $(pwd):/app-data -e CONTENT_URL_PREFIX="file:///app-data" -e WORKSHOPS_URLS="file:///app-data/_rhpam-rhdm-workshop-module1.yml" -e LOG_TO_STDOUT=true quay.io/osevg/workshopper
 ```
 
 Lab Instructions on OpenShift
 ===
 
-Note that if you have installed the lab infra via APB, the lab instructions are already deployed.
+APB経由で labs-infra をインストールした場合、ラボインストラクションはすでにデプロイされていることに注意してください。
 
-Here is an example Ansible playbook to deploy the lab instruction to your OpenShift cluster manually.
+ここでは、ラボインストラクションを OpenShift クラスタに手動でデプロイするための Ansible プレイブックの例を示します。
 ```
 - name: Create Guides Module 1
   hosts: localhost
@@ -36,10 +36,10 @@ Here is an example Ansible playbook to deploy the lab instruction to your OpenSh
       name: siamaksade.openshift_workshopper
     vars:
       project_name: "guide-m1"
-      workshopper_name: "RHPAM / RHDM Workshop V1 Module-2"
+      workshopper_name: "RHPAM / RHDM Workshop V1 Module-1"
       project_suffix: "-XX"
-      workshopper_content_url_prefix: https://raw.githubusercontent.com/RedHat-Middleware-Workshops/rhpam-rhdm-workshop-v1m1-guides/master
-      workshopper_workshop_urls: https://raw.githubusercontent.com/RedHat-Middleware-Workshops/rhpam-rhdm-workshop-v1m2-guides/master/_rhpam-rhdm-workshop-module1.yml
+      workshopper_content_url_prefix: https://raw.githubusercontent.com/kamorisan/rhpam-rhdm-workshop-v1m1-guides-jp/main
+      workshopper_workshop_urls: https://raw.githubusercontent.com/kamorisan/rhpam-rhdm-workshop-v1m1-guides/main/_rhpam-rhdm-workshop-module1.yml
       workshopper_env_vars:
         PROJECT_SUFFIX: "-XX"
         COOLSTORE_PROJECT: coolstore{{ project_suffix }}
