@@ -49,7 +49,7 @@ Red Hat PAM には強力なBusiness Activity Monitoring (BAM)機能が搭載さ�
 
 Red Hat PAMの主なコンポーネントと機能は、この図のように表示されています。
 
-![RHPAM 7 Components]({% image_path rhpam-components.png %}){:width="600px"}
+![RHPAM 7 Components]({% image_path rhpam-components.png %}){:width="800px"}
 
 ### Business Central 
 
@@ -86,7 +86,7 @@ Business Centralには Controller が含まれていますが、Business Central
 RHPAMはいくつかの異なる方法で設計することができますが、
 中でも代表的なアーキテクチャの一つを以下に示しています。
 
-![RHPAM 7 Architecture]({% image_path rhpam-7-architecture.png %}){:width="600px"}
+![RHPAM 7 Architecture]({% image_path rhpam-7-architecture.png %}){:width="800px"}
 
 ----
 
