@@ -1,10 +1,10 @@
 # 3. RHPAM の機能とアーキテクチャ
 
-Red Hat Process Automation Manager (別名: RHPAM) は、意思決定の自動化、意思決定のフロー、人とシステムの相互作用など、ビジネス要件のさまざまな部分を自動化することを可能にします。
+Red Hat Process Automation Manager (別名: RHPAM) は、ビジネス上の意思決定とプロセスの自動化・可視化することを可能とし、ビジネスの変化に迅速かつ柔軟に対応可能なシステムに変革します。
 
 次の図は、Red Hat Process Automation Manager (RHPAM) の主な機能を示しています。
 
-![High Level Capability Component]({% image_path high-level-capability-components.png %}){:width="600px"}
+![High Level Capability Component]({% image_path high-level-capability-components.png %}){:width="800px"}
 
 ## 機能の概要
 
@@ -25,7 +25,7 @@ RHPAM には、Red Hat Decision Manager が含まれているため、オープ�
 
 ### プロセス管理
 
-RHPAMには、オープンソースの[jBPM](http://www.jbpm.org)プロジェクトをベースにした、高性能・軽量・拡張性に優れたBPMN2準拠のプロセス実行エンジン(Kie Server)が搭載されています。
+RHPAMには、オープンソースの[jBPM](http://www.jbpm.org)プロジェクトをベースにした、高性能・軽量・拡張性に優れたBPMN2.0準拠のプロセス実行エンジン(Kie Server)が搭載されています。
 ビジネスプロセス管理やヒューマンタスク管理などの機能を提供し、プロセスの自動化・最適化を可能にします。
 
 ### ケース管理
@@ -33,10 +33,9 @@ RHPAMには、オープンソースの[jBPM](http://www.jbpm.org)プロジェク
 [jBPM](http://www.jbpm.org)エンジン(Kie Server)はCMMNに準拠しており、Business Centralを使用することで、ケースとも呼ばれる柔軟なプロセスを設計、実行、管理、監視することができます。
 これにより、マイルストーンやケースファイルのような機能をケース内で調整し、他の伝統的なBPMNベースのプロセスとケースを統合することができます。
 
-### ダッシュボードレポート
+### ダッシュボード
 
-Red Hat PAM には強力なBusiness Activity Monitoring (BAM)機能が搭載されており、ユーザーは異なるデータソース（CSV、SQL、Kie Server...）に基づいてレポートを作成し、
-カスタマイズされたページやコンポーネントを使用してレポートを表示することができます。
+Red Hat PAM には強力なBusiness Activity Monitoring (BAM)機能が搭載されており、ユーザーは異なるデータソース（CSV、SQL、Kie Server...）に基づいてレポートを作成し、カスタマイズされたページやコンポーネントを使用してレポートを表示することができます。
 
 ![High Level Capability Component]({% image_path high-level-capability-components-dashboard.png %}){:width="600px"}
 
