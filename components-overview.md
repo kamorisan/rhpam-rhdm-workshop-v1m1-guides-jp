@@ -1,6 +1,6 @@
 # 3. RHPAM の機能とアーキテクチャ
 
-Red Hat Process Automation Manager (別名: RHPAM) は、ビジネス上の意思決定とプロセスの自動化・可視化することを可能とし、ビジネスの変化に迅速かつ柔軟に対応可能なシステムに変革します。
+Red Hat Process Automation Manager (RHPAM) は、ビジネス上の意思決定とプロセスの自動化・可視化することを可能とし、ビジネスの変化に迅速かつ柔軟に対応可能なシステムに変革します。
 
 次の図は、Red Hat Process Automation Manager (RHPAM) の主な機能を示しています。
 

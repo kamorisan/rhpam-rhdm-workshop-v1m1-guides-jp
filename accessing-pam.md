@@ -5,7 +5,7 @@
 
 Business Central は、開発者だけでなく、業務エキスパートのための設計、管理、監視機能を備えています。
 
-![Collaboration Tools]({% image_path collaboration_tools.png %}){:width="600px"}
+![Collaboration Tools]({% image_path collaboration_tools.png %}){:width="800px"}
 
 Business Central にアクセスしてみましょう。
 
